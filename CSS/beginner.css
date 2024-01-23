@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    
+  }
+
+  .container{
+    background: url(../IMAGES/chair.jpg) no-repeat ; 
+    background-size: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    margin-top: 53px;
+    height: 500px;
+    width: inherit;
+    padding-top: 10%;
+    position: relative;
+    /* padding-left: 50%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+   
+    /* height: 100%;
+    width: 80%;
+    margin: 0;
+    place-items: center;
+    bottom: 50%;
+    padding: 0; */
+
+  .container h1{
+    padding-right: 17%;
+    margin-right: 11px;
+    /* padding-left:1%; */
+    /* text-align: center; */
+
+
+  }
+  .container p{
+    padding-top: 20px;
+    line-height: 25px;
+    padding-bottom: 2%;
+    /* width: fit-content; */
+    /* text-align: center; */
+    width: 457px;
+    text-align: justify;
+    right: 0;
+    position: absolute;
+    padding-right: 115px;
+
+  }
+
+  .container button{
+    background-color: orangered;
+    color: aliceblue;
+    padding: 14px 10px 10px 10px;
+    border: none;
+    position: relative;
+    margin: 172px 483px;
+  }
